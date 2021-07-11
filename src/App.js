@@ -17,9 +17,10 @@ function Home() {
 
         <p className="description">Cartooniz is a simple quiz, where the user needs to guess the character of any cartoon with some clues provided. If user guesses the correct answer, we will show some facts and an AR model of the character.</p><br/>
 
-        <Link to="/login"><button>Login</button></Link><br/>
         <Link to="/adultquiz"><button>Adult Quiz</button></Link><br/>
         <Link to="/kidsquiz"><button>Kids Quiz</button></Link><br/>
+        <Link to="/funzone"><button>Fun Zone</button></Link><br/>
+        <Link to="/login"><button>Log Out</button></Link><br/>
     
       </div>
     </div>
@@ -44,6 +45,10 @@ export default function App() {
     
 				<Route path="/kidsquiz">
 					<KidsQuiz />
+				</Route>
+
+				<Route path="/funzone">
+					<FunZone />
 				</Route>
     
 			</Router>
