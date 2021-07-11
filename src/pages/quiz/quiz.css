@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn:ital@1&display=swap');
+
+.quizBody {
+    background-color: #203864;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Vollkorn', serif;
+}
+
+.quiz {
+    background-color: #006390;
+    width: 510px;
+    min-height: 260px;
+    height: min-content;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    color: white;
+    padding: 20px;
+    box-shadow: 10px 10px 42px 0px rgba(0, 0, 0, 0.75);
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.score-section {
+    display: flex;
+    align-items: center;
+}
+
+.question-section {
+    width: 100%;
+    position: relative;
+}
+
+.question-count {
+    margin-bottom: 20px;
+}
+
+.question-count span {
+    font-size: 2.5rem;
+}
+
+.question-text {
+    margin-bottom: 12px;
+    font-size: 1.6rem;
+    text-align: left;
+    margin-right: 8px;
+}
+
+.timer-text {
+    background: rgb(230, 153, 12);
+    padding: 15px;
+    margin-top: 20px;
+    margin-right: 20px;
+    border: 5px solid rgb(255, 189, 67);
+    border-radius: 15px;
+    text-align: center;
+}
+
+.answer-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+button {
+    width: 100%;
+    font-size: 1.6rem;
+    color: #ffffff;
+    background-color: #006390;
+    border-radius: 15px;
+    display: flex;
+    padding: 5px;
+    justify-content: flex-start;
+    align-items: center;
+    border: 5px solid #008FA4;
+    cursor: pointer;
+}
+
+.correct {
+    background-color: #2f922f;
+}
+
+.incorrect {
+    background-color: #ff3333;
+}
+
+button:hover {
+    background-color: #00B99A;
+}
+
+button:focus {
+    outline: none;
+}
+
+button svg {
+    margin-right: 5px;
+}

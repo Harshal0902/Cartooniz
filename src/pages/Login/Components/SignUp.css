@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0px;
+}
+
+.container{
+    height: 100vh;
+    background-color: #63C038;
+    display: flex;
+}
+
+.signup{
+    color: #63C038;
+}
+
+.signup-section{
+    /*background-image: url(../images/jett.png);*/
+    background-color: white;
+    height: 100vh;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+form div{
+    padding: 10px;
+}
+
+label{
+    display: block;
+    color: #63C038;
+    padding-bottom: 5px;
+}
+
+input{
+    display: block;
+    border: none;
+    border-radius: 20px;
+    font-size: 1rem;
+    color: #33850d;
+    padding: 9px 14px;
+    background-color: #EEEEEE;
+}
+
+.form-btn{
+    text-align: center !important;
+}
+
+.btn-login{
+    margin: 0 auto;
+    display: block;
+    border: none;
+    border-radius: 20px;
+    padding: 6px 25px !important;
+    font-size: 0.8rem;
+    text-align: center;
+    color: white;
+    background-color: #63C038;
+}
+
+.text{
+    text-align: center;
+    color: #63C038;
+}
+
+.text a{
+    text-decoration: none;
+    color: #33850d;
+    font-weight: 500;
+}
+
+.text span{
+    color: #33850d;
+    cursor: pointer;
+}
+
+input:focus, textarea:focus, select:focus{
+    outline: none;
+}
+
+.image-section{
+    text-align: center;
+    width: 40%;
+}
+
+.image-section h1{
+    color: white;
+    padding: 10px;
+    font-size: 3rem;
+}
+
+.image{
+    padding: 5px;
+} 

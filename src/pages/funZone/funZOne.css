@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Vollkorn:ital@1&display=swap");
+
+.model__body {
+  background-color: #203864;
+}
+
+.models{
+  display: flex;
+  flex-direction: row;
+}
+
+.model {
+  width: 50%;
+  float: left;
+  padding: 15px;
+  padding-left: 120px;
+}
+
+.iframe {
+  height: 670px;
+  width: 400px;
+  border: none;
+}
+
+.model__info {
+  width: 50%;
+  display: grid;
+  place-items: center;
+  margin-left: -200px;
+}
+
+.model__title{
+  font-family: "Vollkorn", serif;
+  color: white;
+  font-size: 50px;
+}
+
+.model__details{
+  font-family: "Vollkorn", serif;
+  color: white;
+  font-size: 20px;
+  text-align: justify;
+}
+
+.view{
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  place-items: center;
+}
+
+.QRCode{
+  width: 200px;
+  height: 200px;
+}
+
+.btn, .btn2 {
+  width: 200px;
+  height: 40px;
+  font-size: 20px;
+  font-family: "Source Serif Pro", serif;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  line-height: 25px;
+  letter-spacing: 1.2px;
+  color: rgba(255, 255, 255, 0.9);
+  border-radius: 50px;
+  background: linear-gradient(-45deg, #ffa63d, #ff3d77, #338aff, #3cf0c5);
+  background-size: 600%;
+  -webkit-animation: anime 16s linear infinite;
+  animation: anime 16s linear infinite;
+}
+
+@keyframes anime {
+  0% {
+      background-position: 0% 50%;
+  }
+  50% {
+      background-position: 100% 50%;
+  }
+  100% {
+      background-position: 0% 50%;
+  }
+}
+
+@media (max-width: 750px) {
+  .model__body {
+    flex-direction: column;
+  }
+}
