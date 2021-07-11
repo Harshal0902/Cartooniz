@@ -30,7 +30,9 @@ function Home() {
 export default function App() {
 	return (
 		<div>
+
 			<Router>
+                        <Link to="/"><button>Back</button></Link><br />
 				<Route exact path="/">
 					<Home />
 				</Route>

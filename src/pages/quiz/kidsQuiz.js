@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import "./quiz.css"
+import { BrowserRouter as Link } from "react-router-dom"
 
 export default function KidsQuiz() {
     const questions = [
@@ -89,9 +90,11 @@ export default function KidsQuiz() {
         <div className="quizBody">
             <div className='quiz'>
                 {showScore ? (
-                    <div className='score-section'>
-                        You scored {score} out of {questions.length}
-                    </div>
+                    <>
+                        <div className='score-section'>
+                            You scored {score} out of {questions.length}
+                        </div>
+                    </>
                 ) : (
                     <>
                         <div className='question-section'>
