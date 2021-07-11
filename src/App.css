@@ -1,8 +1,9 @@
-.box{
+
+.main{
   text-align: center;
 }
 
-.box p{
+.main p{
   display: inline-block;
 }
 
